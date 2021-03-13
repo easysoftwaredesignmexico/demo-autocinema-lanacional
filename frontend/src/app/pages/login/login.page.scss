@@ -1,0 +1,89 @@
+<<<<<<< Updated upstream
+ion-content{
+    --ion-background-color: #ffffff !important;
+   
+  }
+  .my-grid {
+    height: 100% !important;
+ }
+.parent-row {
+    height: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+ }
+ .line-input {
+  margin-bottom: 0!important;
+  ion-item {
+      --border-color: transparent!important;
+      --highlight-height: 0;
+      border: 1px solid #dedede;
+      border-radius: 7px;
+      color:"light";
+      &.item-has-focus {
+          border: 1px solid var(--ion-color-primary);
+      }
+      ion-label {
+          color: #807e7e!important;
+          font-weight: 300;
+          font-size: 1rem!important;
+      }
+  }
+}
+.aumentar-letra{
+    font-size: 20px;
+    margin-top: 120%;
+}
+=======
+ion-content {
+	position: relative;
+	width: 375px;
+	height: 667px;
+	--ion-background-color: linear-gradient(162.46deg, #000000 0%, #09152E 99.97%, #49545D 99.98%) !important;
+}
+ion-toolbar {
+	background-color: linear-gradient(162.46deg, #000000 0%, #09152E 99.97%, #49545D 99.98%);
+}
+h2 {
+	margin-top: 200px;
+	margin-right: 125px;
+}
+img {
+	position: absolute;
+	width: 204px;
+	height: 204px;
+	left: 6px;
+	top: 9px;
+	margin-right: 95px;
+}
+.my-grid {
+	height: 100% !important;
+}
+.parent-row {
+	height: 100% !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+.line-input {
+	margin-bottom: 0 !important;
+	margin-left: 0px;
+	ion-item {
+		--border-color: transparent !important;
+		--highlight-height: 0;
+		border: 1px solid #dedede;
+		border-radius: 7px;
+		color: "light";
+		&.item-has-focus {
+			border: 1px solid var(--ion-color-primary);
+		}
+		ion-label {
+			color: #807e7e !important;
+			font-weight: 300;
+			font-size: 1rem !important;
+		}
+	}
+}
+.aumentar-letra {
+	font-size: 20px;
+	margin-top: 120%;
+}
+>>>>>>> Stashed changes

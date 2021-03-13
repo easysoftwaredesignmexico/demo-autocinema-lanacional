@@ -1,0 +1,7 @@
+{
+  "name": "demo-autocinema-la-nacional-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
