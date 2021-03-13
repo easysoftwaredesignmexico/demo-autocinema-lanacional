@@ -12,11 +12,8 @@
         <ion-grid>
           <ion-row>
             <ion-col class="text-center">
-              <img
-                src="../../../assets/images/logo/logo-autocinema-lanacional-color-blanco.png"
-                class="img-fluid"
-                alt="Logo Autocinema La Nacional"
-              />
+              <img src="../../../assets/images/logo/logo-autocinema-lanacional-color-blanco.png" class="img-fluid"
+                alt="Logo Autocinema La Nacional" />
             </ion-col>
           </ion-row>
           <ion-row style="text-align: center">
@@ -29,39 +26,20 @@
         </ion-grid>
         <ion-list class="line-input">
           <ion-item>
-            <ion-input
-              type="tel"
-              placeholder="Celular"
-              formControlName="celular"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            ></ion-input>
+            <ion-input type="tel" placeholder="Celular" formControlName="celular" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </ion-input>
           </ion-item>
           <ion-item>
-            <ion-input
-              [type]="showPassword ? 'text': 'password' "
-              formControlName="pass"
-              placeholder="Contraseña"
-              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
-            ></ion-input>
-            <ion-icon
-              [name]="passwordToogleIcon"
-              color="gray"
-              slot="end"
-              (click)="togglePassword()"
-            ></ion-icon>
+            <ion-input [type]="showPassword ? 'text': 'password' " formControlName="pass" placeholder="Contraseña"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"></ion-input>
+            <ion-icon [name]="passwordToogleIcon" style="color:#ffffff;" slot="end" (click)="togglePassword()"></ion-icon>
           </ion-item>
         </ion-list>
         <div style="text-align: center; padding-top: 2rem">
-          <ion-button
-            expand="block"
-            color="button"
-            class="entrar"
-            style="background: rgba(68, 215, 182, 0.8) !important"
-            [disabled]="!todo.valid"
-            >Iniciar sesión</ion-button
-          >
+          <ion-button expand="block" color="button" class="entrar"
+            style="background: rgba(68, 215, 182, 0.8) !important" [disabled]="!todo.valid">Iniciar sesión</ion-button>
         </div>
       </ion-grid>
     </form>
-  </ion-content></ion-content
->
+  </ion-content>
+</ion-content>
