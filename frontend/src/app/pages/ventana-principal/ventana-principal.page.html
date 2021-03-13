@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="home"></ion-back-button>
     </ion-buttons>
-    <h2>
+    <h2 class="mx-auto text-center">
       Inicio
     </h2>
     <ion-buttons slot="end">
@@ -12,28 +12,71 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <p class="text-center mx-auto mt-5" style="color:#ffffff; line-height:30px; display:flex;font-size: 22px; text-align: center;">¿Qué deseas hacer hoy?</p>
+        </ion-col>
+      </ion-row>
+      <ion-grid size=4>
+        <ion-row>
+          <a [routerLink]="['dulceria']">
+            <figure class="figure">
+              <img src="../../../assets/images/ventana-principal/dulceria.png" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">Ir a dulcería. <ion-icon name="arrow-forward-outline"></ion-icon></figcaption>
+            </figure>
+          </a>
+        </ion-row>
+        <ion-row>
+          <a [routerLink]="['tienda']">
+            <figure class="figure">
+              <img src="../../../assets/images/ventana-principal/tienda.png" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">Ir a tienda. <ion-icon name="arrow-forward-outline"></ion-icon></figcaption>
+            </figure>
+          </a>
+        </ion-row>
+        <ion-row>
+          <a [routerLink]="['combos']">
+            <figure class="figure">
+              <img src="../../../assets/images/ventana-principal/combos.png" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">Ir a combos. <ion-icon name="arrow-forward-outline"></ion-icon></figcaption>
+            </figure>
+          </a>
+        </ion-row>
+        <ion-row>
+          <a [routerLink]="['mis-qr']">
+            <figure class="figure">
+              <img src="../../../assets/images/ventana-principal/qr.png" class="figure-img img-fluid rounded" alt="...">
+              <figcaption class="figure-caption">Ir a mis Qr. <ion-icon name="arrow-forward-outline"></ion-icon></figcaption>
+            </figure>
+          </a>
+        </ion-row>
+      </ion-grid>
+    </ion-grid>
+
+
  <ion-tabs>
    <ion-tab-bar slot="bottom">
-     <ion-tab-button tab="/">
+     <ion-tab-button class="segment-item" tab="/">
       <ion-label style="color:#ffffff">Inicio</ion-label>
       <ion-icon name="home">
       </ion-icon>
      </ion-tab-button>
-     <ion-tab-button tab="/">
+     <ion-tab-button class="segment-item" tab="/">
       <ion-label style="color:#ffffff">Dulcería</ion-label>
       <ion-icon name="ice-cream-outline"></ion-icon>
      </ion-tab-button>
-     <ion-tab-button tab="/">
+     <ion-tab-button class="segment-item" tab="/">
       <ion-label style="color:#ffffff">Tienda</ion-label>
       <ion-icon name="storefront-outline"></ion-icon>
 
      </ion-tab-button>
-     <ion-tab-button tab="/">
+     <ion-tab-button class="segment-item" tab="/">
       <ion-label style="color:#ffffff">Combos</ion-label>
       <ion-icon name="restaurant-outline"></ion-icon>
 
      </ion-tab-button>
-     <ion-tab-button tab="/">
+     <ion-tab-button class="segment-item" tab="/">
       <ion-label style="color:#ffffff">Mis QR</ion-label>
       <ion-icon name="qr-code-outline"></ion-icon>
 
