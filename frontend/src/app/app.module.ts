@@ -11,12 +11,9 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-<<<<<<< Updated upstream
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
-=======
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,CartModalPageModule, HttpClientModule],
->>>>>>> Stashed changes
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
-  bootstrap: [AppComponent],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule],
+    providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+    bootstrap: [AppComponent],
+ 
 })
 export class AppModule {}
