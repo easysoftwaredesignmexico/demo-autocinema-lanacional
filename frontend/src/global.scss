@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,4 +24,30 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+.fontOpenSansNormal {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 15px;
+}
+.lfontOpenSansLight {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+}
+.fontOpenSansRegular {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+.fontOpenSansSemibold {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+}
+.fontOpenSansTitleScreen {
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+}
